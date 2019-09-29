@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		
+		
+	</head>
+
+	<body>
+		<script src="js/chacol.js" type="text/javascript" charset="utf-8"></script>
+		<div class="width1500 pr bb chcol" style="height: 25px;">
+			
+			<div style="color: gray; position: absolute;left: 200px;">欢迎来到猫咪之家</div>
+
+			<div class="pa" style="right: 0;">
+				<a class="xhxyc cljwzjz" href="登录.html">登录</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+				<a class="xhxyc cljwzjz" href="zhuce.html">注册</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+				<a class="xhxyc cljwzjz" href="#">个人中心</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+			</div>
+		</div>
+
+		<div class="width1500 height200" style="position: relative;">
+
+			<img src="img/lut.jpg" / style="width: 200px;height: 200px;position: absolute;left: 200px;opacity: 0.7;">
+			<div id="lgwz" style="height: 25px;position: absolute;left: 600px;top: 120px;font-size: 25px;font-family:Segoe Script;">
+				LUT·CatHome
+			</div>
+			<a href="index.html" style="position: absolute;width: 380px;height: 50px;left: 500px;top: 50px;"><img src="img/logo.jpg" style="position: absolute;width: 380px;height: 50px;left: 0px;top: 0px;" /></a>
+
+			<form class="pa" action="" method="post" style="right: 100px; top: 70px;">
+				<input id='borCc' type="text" style=" border: 2px solid #fdc68c;width: 250px;height: 40px;border-right: hidden;outline: none;" placeholder="     关键词查询" />
+				<input class="pa bb chcol" type="submit" value="搜索" style="width: 70px;height: 46px;border: 4px solid #fdc68c;background-color: #fdc68c;color: white;float: right;left: 250px;top: 0px;" />
+			</form>
+		</div>
+
+		<div class="width1500 pr " style="height: 600px">
+			<div class="width1500 pr d bb chcol" style="height: 44px;">
+				<div id="nav">
+					<a href="#" class=" xhxyc daohang chcol">首页</a>
+					<a href="#" class=" xhxyc daohang chcol">苏格兰折耳猫</a>
+					<a href="#" class=" xhxyc daohang chcol">苏格兰折耳猫</a>
+					<a href="#" class=" xhxyc daohang chcol">苏格兰折耳猫</a>
+					<a href="#" class=" xhxyc daohang chcol">苏格兰折耳猫</a>
+
+				</div>
+
+				<div class="pa" style="width: 300px;height: 44px;background-color: coral;left: 200px;">
+					<div class="bb chcol" style="height: 44px;width: 300px; text-align: center; line-height: 44px;font-size: 30px;color: white;">
+						貓咪之家
+					</div>
+				</div>
+			</div>
+
+			<div id="mao">
+
+			</div>
+
+		</div>
+
+		<div class="width1500 bb pr chcol" style="height: 200px;">
+			<div class="pr">
+				<a href="#" class="pa xhxyc" style="color: white;left: 450px;">苏格兰折耳猫</a>
+				<a href="#" class="pa xhxyc" style="color: white;left: 600px;">波斯猫</a>
+				<a href="#" class="pa xhxyc" style="color: white;left: 700px;">布偶猫</a>
+				<a href="#" class="pa xhxyc" style="color: white;left: 800px;">美国短毛猫</a>
+				<a href="#" class="pa xhxyc" style="color: white;left: 930px;">英国短毛猫</a>
+				<a href="#" class="pa xhxyc" style="color: white;left: 1060px;">中国短毛猫</a>
+			</div>
+			<div class="width1500 pa" style="height:150px ;bottom: 0;">
+				<p align="center" style="color: white;font-size: 15px;">www.cathome.lut.com © CopyRight 猫咪之家 2017-2018 </p>
+				<p align="center" style="color: white;font-size: 15px;">电话：800-8208820 手机：18988888888 </p>
+				<p align="center" style="color: white;font-size: 15px;">陇ICP备:1666666号-1</p>
+			</div>
+
+		</div>
+<div id='zhuti' style="position: fixed;"> <input type="button" class="chcol dingwei"  id="zhankai1" value="<" /><input class="chcol dingwei" type="button"  id="guanbi1" value=">" /> 请选择主题颜色：<input type="color" name="col" id="col" value="#FFFFFF" /></div>
+	</body>
+
+</html>
